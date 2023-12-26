@@ -65,12 +65,19 @@ hr {
 	border: 0;
 }
 /* Navigation */
+.navbar-logo {
+	width: 50px;
+	height: 50px;
+	margin-right: 1rem;
+}
+
 #menu {
 	padding: 15px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	/* background-color: #fff; */
+	background-color: #FFB78A;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
@@ -90,6 +97,10 @@ hr {
 	padding: 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
+}
+
+#menu.navbar-default .navbar-nav > li > a:hover {
+		color: white;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -115,7 +126,8 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #FFB78A 0%, #FFB78A 100%) !important;
+	/* background: linear-gradient(to right, #FFB78A 0%, #FFB78A 100%) !important; */
+	background: linear-gradient(to right, white 0%, white 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -124,10 +136,12 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #608dfd;
+	border-color: #555;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #FFB78A;
+	/* background-color: #FFB78A; */
+	/* background-color: white; */
+
 }
 .section-title {
 	margin-bottom: 70px;
@@ -154,7 +168,8 @@ hr {
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
-	color: #fff;
+	/* color: #fff; */
+	color: #555;
 	background-color: #FFB78A;
 	background-image: linear-gradient(to right, #FFB78A 0%, #FFB78A 100%);
 	padding: 14px 34px;
@@ -167,7 +182,7 @@ hr {
 	border: 0;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #FFB78A;
+	color: #555;
 	background-image: none;
 	background-color: white;
 }
@@ -346,6 +361,11 @@ header .intro-text {
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
 	padding: 0;
+	width: auto;
+    height: 250px;
+    overflow: hidden;
+	display: flex;
+    align-items: center;
 }
 .portfolio-item .hover-bg {
 	overflow: hidden;
@@ -389,6 +409,19 @@ header .intro-text {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
+
+.testimonials-container {
+	display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center; /* Optional: align items at center for smaller screens */
+    }
+}
+
 #testimonials i {
 	color: #e6e6e6;
 	font-size: 32px;
@@ -414,7 +447,8 @@ header .intro-text {
 }
 .testimonial-content p {
 	margin-bottom: 0;
-	font-size: 14px;
+	font-size: 16px;
+	color: black;
 	font-style: italic;
 }
 .testimonial-meta {

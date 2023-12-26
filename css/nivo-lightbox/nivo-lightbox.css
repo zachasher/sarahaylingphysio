@@ -24,6 +24,8 @@
 .nivo-lightbox-overlay.nivo-lightbox-open {
 	visibility: visible;
 	opacity: 1;
+	overflow: hidden;
+	position: fixed;
 }
 .nivo-lightbox-wrap  {
 	position: absolute;
