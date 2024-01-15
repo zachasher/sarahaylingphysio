@@ -256,7 +256,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 #about h3 {
 	font-size: 22px;
@@ -303,7 +303,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 100px 0;
+	padding: 50px 0;
 	/* background-color: #f6f6f6; */
 	background: linear-gradient(to right, rgb(238, 238, 238) 0%, rgb(238, 238, 238) 100%);
 	/* color: #fff; */
@@ -356,7 +356,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -406,7 +406,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-	padding: 100px 0;
+	padding: 50px 0;
 	background: #f6f6f6;
 }
 
@@ -477,7 +477,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 50px 0 50px 0;
 	background: linear-gradient(to right, #FFB78A 0%, #FFB78A 100%);
 	color: white(255,255,255,.75);
 }
