@@ -623,3 +623,16 @@ color: #777;
 	margin: 50px 0;
 }
 }
+
+.contact-number {
+	color: #333;
+}
+
+.contact-number:hover {
+	color:#608dfd;
+	text-decoration: underline;
+}
+
+.get-in-touch:hover {
+	text-decoration: underline;
+}
