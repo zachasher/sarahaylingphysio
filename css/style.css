@@ -601,10 +601,10 @@ color: #555;
 	font-size: 14px;
 }
 #footer a {
-	color: #366fff;
+	color: #0048ff;
 }
 #footer a:hover {
-	border-bottom: 2px solid #366fff;
+	border-bottom: 2px solid #0048ff;
 }
 
 @media (max-width: 768px) {
