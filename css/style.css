@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #333;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
@@ -91,7 +91,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	color: #555;
+	color: #333;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -136,7 +136,7 @@ hr {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #fff;
-	border-color: #555;
+	border-color: #333;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	/* background-color: #FFB78A; */
@@ -168,8 +168,8 @@ hr {
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
-	/* color: #fff; */
-	color: #555;
+	color: #fff;
+	/* color: #333; */
 	background-color: #FFB78A;
 	background-image: linear-gradient(to right, #FFB78A 0%, #FFB78A 100%);
 	padding: 14px 34px;
@@ -182,7 +182,7 @@ hr {
 	border: 0;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #555;
+	color: #333;
 	background-image: none;
 	background-color: white;
 }
@@ -304,10 +304,8 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 50px 0;
-	/* background-color: #f6f6f6; */
 	background: linear-gradient(to right, rgb(238, 238, 238) 0%, rgb(238, 238, 238) 100%);
-	/* color: #fff; */
-	color: black;
+	
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
@@ -315,7 +313,7 @@ header .intro-text {
 	/* color: red; */
 }
 #services h2 {
-	color: fff;
+	/* color: #111; */
 }
 #services .section-title h2::after {
 	position: absolute;
@@ -336,21 +334,14 @@ header .intro-text {
 	padding: 40px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	border-radius: 50%;
-	/* color: #fff; */
 	color: black;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	/* color: #fff; */
-	color: fff;
 }
-#services p {
-	/* color: rgba(255,255,255,.75); */
-	color: black;
-	/* color: fff; */
-}
+
 #services .service-desc {
 	margin-bottom: 40px;
 }
@@ -448,7 +439,6 @@ header .intro-text {
 .testimonial-content p {
 	margin-bottom: 0;
 	font-size: 16px;
-	color: black;
 	font-style: italic;
 }
 .testimonial-meta {
@@ -555,22 +545,21 @@ label {
 	box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-color: #777;
+color: #555;
 }
 .form-control:-moz-placeholder {
-color: #777;
+color: #555;
 }
 .form-control::-moz-placeholder {
-color: #777;
+color: #555;
 }
 .form-control:-ms-input-placeholder {
-color: #777;
+color: #555;
 }
 #contact .contact-item {
 	margin: 20px 0;
 }
 #contact .contact-item span {
-	/* color: rgba(255,255,255,1); */
 	color: white;
 	margin-bottom: 10px;
 	display: block;
