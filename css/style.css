@@ -178,7 +178,7 @@ hr {
 	font-size: 15px;
 	font-weight: 500;
 	border-radius: 25px;
-	transition: all 0.25s linear;
+	transition: all 0.15s linear;
 	border: 0;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
